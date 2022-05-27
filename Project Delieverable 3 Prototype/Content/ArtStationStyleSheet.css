@@ -1,0 +1,102 @@
+﻿/*Dictates the color of the entire page*/
+body {
+    background-color: white;
+}
+/*Used for testing columns*/
+.cTest1 {
+    background-color: pink;
+}
+/*Used for testing columns*/
+.cTest2 {
+    background-color: blue;
+}
+/*Sets styling for welcome text*/
+.welcomeText {
+    background-color: #FE668C;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 7em;
+    text-align: center;
+}
+/*Aligns the logo on the welcome page*/
+.logo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+/*Aligns the buttons correctly*/
+.buttonCenter {
+    display: flex;
+    padding-top: .575em;
+    justify-content: center;
+    align-items: center;
+}
+/*Aligns the buttons correctly*/
+.buttonRight {
+    display: flex;
+    padding-top: .575em;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*Aligns the buttons correctly*/
+.buttonLeft {
+    display: flex;
+    padding-top: .575em;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*Sets styling for company info*/
+.companyInfo {
+    display: flex;
+    padding-top: 2em;
+    justify-content: center;
+}
+/*Aligns images*/
+.rightImage img {
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+/*Aligns images but cooler*/
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Sets styling for <a>, used for the navigation panel*/
+a {
+    font-size: 2em;
+}
+
+btnColor {
+    color: #55EEF0;
+}
+
+.carouselimages {
+    
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: white;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    top: calc(50% - 1.5em);
+}
+
+.carousel-control-prev {
+    
+    background-color: dimgray;
+    color: dimgray;
+}
+
+.carousel-control-next {
+    
+    background-color: dimgray;
+}
+
+.carousel-indicators li {
+    background-color: dimgray;
+}
